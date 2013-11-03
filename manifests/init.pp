@@ -8,6 +8,6 @@ class tunnelblick {
 
   package { 'Tunnelblick':
     provider => 'appdmg',
-    source   => "http://optimate.dl.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_${version}.dmg",
+    source   => "http://downloads.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_${version}.dmg",
   }
 }
