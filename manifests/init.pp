@@ -4,10 +4,10 @@
 #
 #   include tunnelblick
 class tunnelblick {
-  $version = '3.2.9'
+  $version = '3.3'
 
   package { 'Tunnelblick':
     provider => 'appdmg',
-    source   => "http://tunnelblick.googlecode.com/files/Tunnelblick_${version}.dmg",
+    source   => "http://downloads.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_${version}.dmg",
   }
 }
