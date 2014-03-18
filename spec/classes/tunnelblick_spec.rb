@@ -13,7 +13,7 @@ describe 'tunnelblick::beta' do
   it do
     should contain_package('Tunnelblick').with({
       :provider => 'appdmg',
-      :source   => 'http://downloads.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_3.4beta14.dmg',
+      :source   => 'http://downloads.sourceforge.net/project/tunnelblick/All%20files/Tunnelblick_3.4beta20.dmg',
     })
   end
 end
