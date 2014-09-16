@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'tunnelblick' do
-  version = '3.3'
+  version = '3.3.4'
   it do
     should contain_package('Tunnelblick').with({
       :provider => 'appdmg',
@@ -11,7 +11,7 @@ describe 'tunnelblick' do
 end
 
 describe 'tunnelblick::beta' do
-  version = '3.4beta22'
+  version = '3.4beta36_r2945'
   it do
     should contain_package('Tunnelblick').with({
       :provider => 'appdmg',
